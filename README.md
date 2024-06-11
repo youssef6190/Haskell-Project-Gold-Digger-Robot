@@ -6,6 +6,7 @@ up gold only if it is in the same cell as the gold. Your program will take as in
 the robot and the positions of all of the gold. The objective of the AI module is to compute a sequence
 of actions that the robot can follow in order to go to all the gold and dig for it. 
 --------------------------------
+
 2 Type Definitions
 Your implementation must contain the following type definitions.
 
@@ -24,6 +25,8 @@ of the gold to be dug up, a string representing the last action performed to rea
 state. The parent state is the last state the robot was in before doing the last performed action. The initial
 state of the robot in the above grid is accordingly represented as: S (3,0) [(2,2),(1,2)] "" Null
 ;--------------------------------------------------------------------------------;
+
+
 3 Functions
 
 Your implementation must also contain the following functions. It is recommended to implement the
