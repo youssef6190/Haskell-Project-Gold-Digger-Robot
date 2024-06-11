@@ -125,6 +125,7 @@ constructSolution (S (3,1) [] "dig" (S (3,1) [(3,1)] "right" (S (3,0) [(3,1)] ""
 = ["right","dig"]
 
 3.2.5 solve
+
 The function takes as input a cell representing the starting position of the robot, a set of cells representing
 the positions of the gold, and returns a set of strings representing actions that the robot can follow to
 reach a goal state from the initial state.
